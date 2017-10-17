@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="FileSaver.min.js"></script>
+        <script src="svgSaveFunctions.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="the_.js"></script>
+    </head>
+    <body>  
+        <div id="header_wrapper">
+        </div>
+        <div id="textarea_wrapper">
+        
+        </div>
+        <div id="viz_wrapper">
+            <!-- <svg class="chart"></svg> -->
+        </div>
+        <div id="options_wrapper">
+            <a href="#" id="saveButton">SAVE PNG</a>
+            <br>
+            <div id="overlay_options_wrapper">
+                <input type=button value="reset timestamps for overlay" id="overlay_button"> <p>or do that everytime [enter] is pressed: </p><input type="checkbox" id="overlay_checkbox">
+                <br>
+                <br>
+                <p id="color_prompt">select box color: </p><input type="range" min="0" max="1" step="0.01" value="0" id="color_slider">
+            </div>
+            <p>build with d3.js by <a class="link" href="http://leoneckert.com" target="_blank">Leon Eckert</a></p>
+        </div>
+    </body>
+
+</html>
